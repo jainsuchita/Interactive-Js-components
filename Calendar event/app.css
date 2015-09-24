@@ -1,0 +1,53 @@
+
+body, html
+{
+	margin:0px;
+	padding:0px;
+}
+
+.container
+{
+	width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header
+{
+	margin: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    position: relative;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+.prev
+{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 18px 20px;
+    border: 1px solid #ededed;
+    width: 20px;
+    margin: 5px;
+}
+
+.prev:hover
+{
+	background-color: green;
+}
+
+.next
+{
+	position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 18px 20px;
+    border: 1px solid #ededed;
+    width: 20px;
+    margin: 5px;
+}
